@@ -1,0 +1,33 @@
+{
+  "mcpServers": {},
+  "allowedCommands": [
+    "git status",
+    "git add .",
+    "git commit",
+    "npm install",
+    "npm run dev",
+    "npm run build",
+    "next dev",
+    "next build"
+  ],
+  "trustedFiles": [
+    "app/**/*.tsx",
+    "app/**/*.ts",
+    "app/**/*.jsx",
+    "app/**/*.js",
+    "components/**/*.tsx",
+    "components/**/*.ts",
+    "lib/**/*.ts",
+    "styles/**/*.css",
+    "public/**/*",
+    "package.json",
+    "tsconfig.json",
+    "next.config.js",
+    "tailwind.config.js"
+  ],
+  "autoApprove": {
+    "fileEdits": true,
+    "safeCommands": true,
+    "webRequests": false
+  }
+} 
