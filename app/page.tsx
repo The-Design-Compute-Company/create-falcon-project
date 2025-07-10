@@ -1,4 +1,4 @@
-import Image from "next/image";
+"use client"
 
 export default function Home() {
   return (
@@ -10,7 +10,7 @@ export default function Home() {
         muted 
         playsInline 
         preload="auto"
-        className="fixed top-0 left-0 w-screen h-screen object-cover opacity-20"
+        className="fixed top-0 left-0 w-screen h-screen object-cover opacity-10"
         style={{
           background: "linear-gradient(0deg, #FF1000 0%, #FF1000 100%)",
           backgroundBlendMode: "color"
